@@ -1,0 +1,139 @@
+body {
+    transition: 1.5s;
+}
+
+/* .night-toggle{
+    width: 33px;
+    height: 33px;
+    right: 20px;
+    top: 120px;
+    position: absolute
+} */
+
+.night-toggle:hover{
+    cursor: pointer;
+}
+
+
+.moon {
+  background-color: transparent;
+  box-shadow: -6px 1px 0 3px #275e8e;
+  border-left:3px solid #27476D;
+  border-radius:50%;
+  width: 20px;
+  height: 20px;
+  margin-left:8px;
+  margin-top:0px;
+  transition: 2s;
+}
+.sun {
+  background-color: #fdd462;
+  box-shadow: 2px 0px 0px 1px #D19C29;
+  border-radius:50%;
+  width: 26px;
+  height: 26px;
+  transition: 2s;
+}
+
+
+.footer{
+   /* position: fixed; */
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   text-align: center;
+}
+
+.big-heading{
+    margin: 0px;
+    font-size: clamp(40px, 8vw, 80px);
+}
+
+.hi_msg{
+ margin : 0px 0px 20px 2px
+}
+
+.introduction{
+    margin: 40px 0px 0px 0px
+}
+
+.description{
+    margin: 10px 0px 0px 0px;
+}
+
+
+.about-space{
+    margin: 400px 0px 0px 0px
+}
+
+
+.skill-list{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(140px, 200px));
+    gap: 0px 10px;
+    padding: 0px;
+    margin: 20px 0px 0px;
+    overflow: hidden;
+    list-style: none;
+}
+
+.inner{
+    display: grid;
+    gap:50px;
+    grid-template-columns: 3fr 2fr;
+}
+
+
+.project_grid{
+    list-style: none;
+    padding: 0px;
+    margin: 50px 0px 0px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 15px;
+    position: relative;
+}
+
+.project-inner {
+    box-shadow: 0 10px 30px -15px var(--navy-shadow);
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    height: 100%;
+    padding: 2rem 1.75rem;
+    border-radius: var(--border-radius);
+    background-color: var(--light-navy);
+    transition: var(--transition);
+    overflow: auto;
+}
+
+.project-top {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.project-top .project-links {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-right: -10px;
+}
+
+.project-title {
+    margin: 0px 0px 10px;
+}
+
+.projects{
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+}
