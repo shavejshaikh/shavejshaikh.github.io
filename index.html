@@ -68,14 +68,18 @@
       </div>
     </nav>
 
-    <section id="introduction">
-      <div class="container introduction">
+    <section id="introduction" class="introduction">
+      <div class="container">
         <h1 class="hi_msg">Hi, my name is</h1>
         <h1 class="big-heading">Shavej Shaikh.</h1>
         <p class="description">
           I'm a software engineer specialize in buildling and designing <br />
           exceptional human-centered products
         </p>
+        <div class="mt-4 pt-2 mr-2">
+          <a type="button" class="btn btn-primary">Hire Me</a>
+          <a type="button" class="btn btn-primary ml-20">Download CV </a>
+        </div>
       </div>
     </section>
 
@@ -84,9 +88,9 @@
         <h2 class="number-heading">About Me</h2>
         <div class="inner">
           <div class="about_descp">
-            <p>Hello! My name is Brittany and I enjoy creating</p>
-            <p>things that live on the internet. My interest in web</p>
-            <p>development started back in 2012 when I decided to</p>
+            <p>Hello! My name is Shavej and I enjoy creating</p>
+            <p>things that live on the internet. My interest in software/web</p>
+            <p>development started back in 2016 when I decided to</p>
             <p>try editing custom Tumblr themes — turns out</p>
             <p>hacking together a custom reblog button taught me</p>
             <p>a lot about HTML & CSS!</p>
@@ -100,6 +104,9 @@
               <li>Vuejs</li>
               <li>Javascript</li>
               <li>Django</li>
+              <li>PostgreSql</li>
+              <li>FastApi</li>
+              <!-- <li></li> -->
             </ul>
           </div>
           <div class="about_img"></div>
@@ -108,30 +115,155 @@
     </section>
 
     <section id="workexp">
-      <div class="container about-space">
-        <h2 class="number-heading">About Me</h2>
-        <div class="inner">
-          <div class="about_descp">
-            <p>Hello! My name is Brittany and I enjoy creating</p>
-            <p>things that live on the internet. My interest in web</p>
-            <p>development started back in 2012 when I decided to</p>
-            <p>try editing custom Tumblr themes — turns out</p>
-            <p>hacking together a custom reblog button taught me</p>
-            <p>a lot about HTML & CSS!</p>
+      <div class="container">
+        <h2 class="number-heading">Work Experience</h2>
 
-            <p>Fast-forward to today, and I’ve had the privilege of</p>
-            <p>working at an advertising agency, a start-up,</p>
-            <p>Here are a few technologies I’ve been working with</p>
-            <p>recently:</p>
-            <ul class="skill-list">
-              <li>Python</li>
-              <li>Vuejs</li>
-              <li>Javascript</li>
-              <li>Django</li>
-            </ul>
-          </div>
-          <div class="about_img"></div>
-        </div>
+        <section class="CV-timeline CV-job">
+          <h3 class="CV-timeline-heading">
+            <span class="CV-timeline-heading-title"
+              >Punctuation Solution Private Limited </span
+            >&#8211;
+            <span class="CV-timeline-heading-location">Mumbai India </span
+            ><small class="CV-timeline-heading-duration"
+              >March 2021 - Present</small
+            >
+          </h3>
+          <ul class="CV-timeline-details">
+            <li class="CV-job-timeline-item">
+              Interpret data, analyze results using statistical techniques and
+              provide ongoing reports.
+            </li>
+            <li class="CV-job-timeline-item">
+              Created a connector for Cloud Storage and performing oauth &
+              getting file and folder information using express.js api and
+              integrating with vue.js.
+            </li>
+            <li class="CV-job-timeline-item">
+              Integrate Watson Discovery and Knowledge studio in Node js webapp
+              for OCR (Object Character Recognition).
+            </li>
+            <li class="CV-job-timeline-item">
+              Evaluated different Object Detection architectures namely YOLOv3,
+              YOLOv4 and Tensorflow object detection.
+            </li>
+            <li class="CV-timeline-details-item">
+              FasterResNet, CascadeNet and MMdetection to identify borderless
+              tables and cells on a custom datasets and perform ocr.
+            </li>
+            <li class="CV-timeline-details-item">
+              Train a detection and extraction model to perform ocr on image and
+              get bounding box from detected text and its value.
+            </li>
+            <li class="CV-timeline-details-item">
+              Write a script to extract particular key or train NLP model as per
+              requirement and build api using fastapi and integrated in Vuejs.
+            </li>
+          </ul>
+        </section>
+
+        <section class="CV-timeline CV-job">
+          <h3 class="CV-timeline-heading">
+            <span class="CV-timeline-heading-title">Klizo Solution </span
+            >&#8211; <span class="CV-timeline-heading-location">India</span
+            ><small class="CV-timeline-heading-duration"
+              >Dec 2020 - Feb 2021</small
+            >
+          </h3>
+          <ul class="CV-timeline-details">
+            <li class="CV-timeline-details-item">
+              Developing a website and integrated it with Hyperledger and Cayman
+              Network.
+            </li>
+            <li class="CV-timeline-details-item">
+              Created a connection between two peers in Hyperledger indy.
+            </li>
+            <li class="CV-timeline-details-item">
+              Credential definition ,credential exchange and proof presentation
+              between two peers.
+            </li>
+          </ul>
+        </section>
+
+        <section class="CV-timeline CV-job">
+          <h3 class="CV-timeline-heading">
+            <span class="CV-timeline-heading-title">IT DUDE TECH SOLUTION </span
+            >&#8211;
+            <span class="CV-timeline-heading-location">Mumbai India</span
+            ><small class="CV-timeline-heading-duration"
+              >Jun 2020 - Dec 2021</small
+            >
+          </h3>
+          <ul class="CV-timeline-details">
+            <li class="CV-timeline-details-item">
+              Designed and configured database and backend application and
+              frontend
+            </li>
+            <li class="CV-timeline-details-item">
+              Use ajax and jQuery for transmitting json object between frontend
+              to views/controller.
+            </li>
+            <li class="CV-timeline-details-item">
+              Developed and tested multiple features for dashboard using HTML,
+              CSS , Bootstrap and javascript.
+            </li>
+            <li class="CV-timeline-details-item">
+              Use GitLab CI/CD is a tool for software development and Git for
+              Version control.
+            </li>
+          </ul>
+        </section>
+
+        <section class="CV-timeline CV-job">
+          <h3 class="CV-timeline-heading">
+            <span class="CV-timeline-heading-title"
+              >Branding Catalyst Pvt Ltd </span
+            >&#8211;
+            <span class="CV-timeline-heading-location">Mumbai India</span
+            ><small class="CV-timeline-heading-duration"
+              >Dec 2020 - Feb 2021</small
+            >
+          </h3>
+          <ul class="CV-timeline-details">
+            <li class="CV-timeline-details-item">
+              Worked as full stack developer to develop, maintain, and execute
+              comprehensive e- commerce platform regression testing scripts.
+            </li>
+            <li class="CV-timeline-details-item">
+              Integrating cross browser compatible applications and secure
+              payment gateways in the website.
+            </li>
+            <li class="CV-timeline-details-item">
+              Implement dynamic, data driven eCommerce functionality using the
+              Demandware developer platform and associated Third Party developer
+              tool-kits.
+            </li>
+          </ul>
+        </section>
+
+        <section class="CV-timeline CV-job">
+          <h3 class="CV-timeline-heading">
+            <span class="CV-timeline-heading-title"
+              >TalentHome Solutions LLP </span
+            >&#8211;
+            <span class="CV-timeline-heading-location">Mumbai India</span
+            ><small class="CV-timeline-heading-duration"
+              >Apr 2019 - May 2019</small
+            >
+          </h3>
+          <ul class="CV-timeline-details">
+            <li class="CV-timeline-details-item">
+              Utilizing JavaScript frameworks to implement website
+              functionality.
+            </li>
+            <li class="CV-timeline-details-item">
+              Manage technical integration with third party services.
+            </li>
+            <li class="CV-timeline-details-item">
+              Perform digital marketing tasks such as Instagram Advertisement,
+              Search Engine Optimisation(SEO).
+            </li>
+          </ul>
+        </section>
       </div>
     </section>
 
@@ -306,8 +438,12 @@
       </div>
     </section>
 
+    <section id="certification">
+      <div class="container">
+        <h2 class="number-heading">Certification</h2>
+      </div>
+    </section>
 
-    
     <footer class="footer">
       <!-- Coopyright -->
       <div>
