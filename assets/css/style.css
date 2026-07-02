@@ -731,6 +731,87 @@ section .container {
 }
 
 /*--------------------------------------------------------------
+# Education Card
+--------------------------------------------------------------*/
+.education-card {
+  background: #09203a;
+  border-radius: 12px;
+  padding: 40px 35px;
+  text-align: center;
+  border: 1px solid transparent;
+  transition: all ease-in-out 0.3s;
+}
+
+.education-card:hover {
+  background: #042e5f;
+  border-color: #1c7d32;
+  transform: translateY(-5px);
+}
+
+.education-logo-wrap {
+  width: 130px;
+  height: 130px;
+  background: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 22px;
+  padding: 14px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
+}
+
+.education-logo-wrap img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.education-degree {
+  color: #fff;
+  font-weight: 700;
+  font-size: 22px;
+  margin-bottom: 6px;
+}
+
+.education-school {
+  color: #12d640;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.education-dates {
+  display: inline-block;
+  color: #b8c7d9;
+  font-size: 14px;
+  margin-bottom: 24px;
+}
+
+.education-coursework h6 {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 14px;
+}
+
+.coursework-tags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+}
+
+.coursework-tags .tag {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid #1c7d32;
+  color: #fff;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 13px;
+}
+
+/*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
 .portfolio .portfolio-item {
